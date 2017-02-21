@@ -1,0 +1,9 @@
+insert_svg.file_dialog:
+  path: '/insert_svg/dialog/file/{filter_format}'
+  defaults:
+    _form: '\Drupal\insert_svg\Form\InsertSvgDialog'
+    _title: 'Add SVG file'
+  options:
+    _theme: ajax_base_page
+  requirements:
+    _entity_access: 'filter_format.use'

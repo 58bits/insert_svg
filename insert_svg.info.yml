@@ -1,0 +1,11 @@
+name: 'Editor Insert SVG'
+type: module
+description: 'Allow users to insert SVG images inline in the text Editor.'
+core: 8.x
+dependencies:
+  - ckeditor
+  - editor
+  - filter
+  - file
+configure: filter.admin_overview
+version: '8.x-1.0'
